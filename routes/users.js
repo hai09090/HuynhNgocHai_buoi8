@@ -42,6 +42,8 @@ router.post('/',
         body.username,
         body.password,
         body.email,
+        body.fullName,
+        body.avatarUrl,
         body.role
       )
       res.status(200).send({
